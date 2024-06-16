@@ -1,0 +1,28 @@
+tr:not(:first-child):nth-child(even) {
+  background: #ccc;
+}
+tr:not(:first-child):nth-child(odd) {
+  background: #fff;
+}
+
+.tableContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+  width: 30%;
+  text-align: center;
+  border: 1px solid gray;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.head {
+  background-color: black;
+  color: #fff;
+}
+
+td {
+  border: 1px solid gray;
+}
